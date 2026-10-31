@@ -1,0 +1,117 @@
+{
+ "country": "LK-4",
+ "acts": [
+  {
+   "slug": "department-of-probation-and-child-care-services-statute-of-the-northern-province",
+   "short": "Department of Probation and Child Care Services Statute of the Northern Province No. 05 of 2016",
+   "title": "Department of Probation and Child Care Services Statute of the Northern Province No. 05 of 2016",
+   "url": "https://np.gov.lk/pdf/health/probation/Statutes_Dept%20ProbationNP-2011-14_E.pdf",
+   "versions": [
+    {
+     "from": "2017-03-22",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/health/probation/Statutes_Dept%20ProbationNP-2011-14_E.pdf",
+     "sha256": "4ee2b431d58b1b15940c1835ee9a15fc9b1424c78424bd7093b87f1c3f50e072"
+    }
+   ]
+  },
+  {
+   "slug": "tranfer-of-court-fines-and-penalties-statute-of-the-northern-province-provincial",
+   "short": "Tranfer of Court Fines and Penalties Statute of the Northern Province Provincial Council No. 01 of 2017",
+   "title": "Transfer of Court Fines and Penalties Statute of the Northern Province Provincial Council No. 01 of 2017",
+   "url": "https://np.gov.lk/pdf/Statutes/Ravenue/2030-12_E.pdf",
+   "versions": [
+    {
+     "from": "2017-07-31",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/Statutes/Ravenue/2030-12_E.pdf",
+     "sha256": "d3c3a38b692c1aa69ab2d0f1bea85496458d80357e6795cea13842567f12950f"
+    }
+   ]
+  },
+  {
+   "slug": "mineral-tax-statute-no-03-of-2017",
+   "short": "Mineral Tax Statute, No. 03 of 2017",
+   "title": "Mineral Tax Statute of the Northern Province Provincial Council No.03 of 2017",
+   "url": "https://np.gov.lk/pdf/Statutes/Ravenue/Minerals%20Tax-English.pdf",
+   "versions": [
+    {
+     "from": "2017-09-13",
+     "units": 8,
+     "source_url": "https://np.gov.lk/pdf/Statutes/Ravenue/Minerals%20Tax-English.pdf",
+     "sha256": "f97c268f1d7d38e8e6e92099782fb68c0115038b2c7c78f1ab6c357a946d1707"
+    }
+   ]
+  },
+  {
+   "slug": "transfer-of-stamp-duty-statute-of-the-northern-province-no-02-of-2014",
+   "short": "Transfer of Stamp Duty Statute of the Northern Province, No. 02 of 2014",
+   "title": "Transfer of Stamp Duty Statute of the Northern Provincial Council No. 02 of 2014",
+   "url": "https://np.gov.lk/pdf/Statutes/Ravenue/1890-32_English.pdf",
+   "versions": [
+    {
+     "from": "2014-11-27",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/Statutes/Ravenue/1890-32_English.pdf",
+     "sha256": "85785ebc3701e6f35c87dbab60596d511614d4c0f9cbba03303b44ba292edaa3"
+    }
+   ]
+  },
+  {
+   "slug": "northern-province-tourism-bureau-statute-no-02-of-2017",
+   "short": "Northern Province Tourism Bureau Statute No. 02 of 2017",
+   "title": "Northern Province Tourism Bureau Statute No. 02 of 2017",
+   "url": "https://www.np.gov.lk/pdf/Statutes/CMM/2054_02/2054-02_E.pdf",
+   "versions": [
+    {
+     "from": "2018-01-15",
+     "units": 28,
+     "source_url": "https://www.np.gov.lk/pdf/Statutes/CMM/2054_02/2054-02_E.pdf",
+     "sha256": "1f101d7f97160b981c285b55a78e2cb0295a68b6977e45fa1d9a9c2066dcf1c0"
+    }
+   ]
+  },
+  {
+   "slug": "education-statute-no-02-of-2015",
+   "short": "Education Statute No. 02 of 2015",
+   "title": "Northern Province Education Statute No. 02 of 2015",
+   "url": "https://www.np.gov.lk/pdf/Statutes/Education/1960_69/1960-69_E.pdf",
+   "versions": [
+    {
+     "from": "2016-04-01",
+     "units": 1,
+     "source_url": "https://www.np.gov.lk/pdf/Statutes/Education/1960_69/1960-69_E.pdf",
+     "sha256": "a444b89ebe088cda4bde05b5ee6c6ece89dda2dca8981f7558cbdf8ba21ab02b"
+    }
+   ]
+  },
+  {
+   "slug": "indigenous-medicine-statute-no-09-of-2016",
+   "short": "Indigenous Medicine Statute No: 09 of 2016",
+   "title": "Northern Province Indigenous Medicine – No. 09 of 2016",
+   "url": "https://www.np.gov.lk/pdf/Statutes/health/2065_37/2065-37_E.pdf",
+   "versions": [
+    {
+     "from": "2018-04-05",
+     "units": 1,
+     "source_url": "https://www.np.gov.lk/pdf/Statutes/health/2065_37/2065-37_E.pdf",
+     "sha256": "7687d0780120a5b3027c7ae28ce3956510e94445d06476666233916511055d9b"
+    }
+   ]
+  },
+  {
+   "slug": "northern-province-business-names-statute-no-01-of-2018",
+   "short": "Northern Province Business Names Statute, No. 01 of 2018",
+   "title": "Northern Province Business Names Statute No.01 of 2018",
+   "url": "https://np.gov.lk/pdf/Statutes/Ravenue/2111-39_E.pdf",
+   "versions": [
+    {
+     "from": "2019-02-20",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/Statutes/Ravenue/2111-39_E.pdf",
+     "sha256": "430e00009de92fb7a6e8a171b8f331f762ccb4670a86f1371263d0cd1967b137"
+    }
+   ]
+  }
+ ]
+}
