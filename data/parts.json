@@ -1,0 +1,28 @@
+{
+ "parts": {
+  "20-statutes-01.json": {
+   "acts": [
+    "department-of-probation-and-child-care-services-statute-of-the-northern-province",
+    "mineral-tax-statute-no-03-of-2017",
+    "tranfer-of-court-fines-and-penalties-statute-of-the-northern-province-provincial"
+   ],
+   "sha256": "ebe41aeee6a991646797f12258a94a1666dffe4e4ae5c460b9d107d69a030416"
+  },
+  "20-statutes-02.json": {
+   "acts": [
+    "northern-province-tourism-bureau-statute-no-02-of-2017",
+    "transfer-of-stamp-duty-statute-of-the-northern-province-no-02-of-2014"
+   ],
+   "sha256": "176e2c725190e61825ef5c1f3bf074d48927d74ff90a33d8a639367a6aa53bec"
+  },
+  "20-statutes-03.json": {
+   "acts": [
+    "education-statute-no-02-of-2015",
+    "indigenous-medicine-statute-no-09-of-2016",
+    "northern-province-business-names-statute-no-01-of-2018"
+   ],
+   "sha256": "6238088ee26b08a914569405a6769e028c052cbef00ef7221bdfce4b4b8567ba"
+  }
+ },
+ "schema": 1
+}
