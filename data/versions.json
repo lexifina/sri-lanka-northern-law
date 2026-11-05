@@ -112,6 +112,62 @@
      "sha256": "430e00009de92fb7a6e8a171b8f331f762ccb4670a86f1371263d0cd1967b137"
     }
    ]
+  },
+  {
+   "slug": "northern-province-child-day-care-centre-statute-no-03-of-2016",
+   "short": "Northern Province Child Day Care Centre Statute No. 03 of 2016",
+   "title": "Northern Province Child Day Care Centre Statute No. 03 of 2016",
+   "url": "https://np.gov.lk/pdf/gazette/1991-41_E%20cdcc.pdf",
+   "versions": [
+    {
+     "from": "2016-10-28",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/gazette/1991-41_E%20cdcc.pdf",
+     "sha256": "51a7ece4d36c4b70500c6738c7ee3f2e2415c7d1f98a0dbb8adb28932df02d35"
+    }
+   ]
+  },
+  {
+   "slug": "northern-province-child-development-centre-statute-no-04-of-2016",
+   "short": "Northern Province Child Development Centre Statute No. 04 of 2016",
+   "title": "Northern Province Child Development Centre Statute No. 04 of 2016",
+   "url": "https://np.gov.lk/pdf/gazette/1994-77_E%20CDC.pdf",
+   "versions": [
+    {
+     "from": "2016-11-21",
+     "units": 1,
+     "source_url": "https://np.gov.lk/pdf/gazette/1994-77_E%20CDC.pdf",
+     "sha256": "b4a8ce80e0ddc1575f89ca8b8daea56c5be082f6c50c9973f272065dc50fde08"
+    }
+   ]
+  },
+  {
+   "slug": "northern-province-health-services-amendment-statute-no-10-of-2016",
+   "short": "Northern Province Health Services (Amendment) Statute No. 10 of 2016",
+   "title": "Northern Province Health Services (Amendment) Statute No. 10 of 2016",
+   "url": "https://www.np.gov.lk/pdf/Statutes/health/2027_40/2027-40_E.pdf",
+   "versions": [
+    {
+     "from": "2017-07-11",
+     "units": 4,
+     "source_url": "https://www.np.gov.lk/pdf/Statutes/health/2027_40/2027-40_E.pdf",
+     "sha256": "0086d9cccb021a24eacc1195356a25c05f8a1ebcbfe339da203473a0973523ef"
+    }
+   ]
+  },
+  {
+   "slug": "finance-amendment-statute-of-northern-province-no-04-of-2017",
+   "short": "Finance (Amendment) Statute of Northern Province No. 04 of 2017",
+   "title": "Finance (Amendment) Statute of Northern Province No. 04 of 2017",
+   "url": "https://np.gov.lk/pdf/Statutes/Ravenue/2042-10_E.pdf",
+   "versions": [
+    {
+     "from": "2017-10-13",
+     "units": 4,
+     "source_url": "https://np.gov.lk/pdf/Statutes/Ravenue/2042-10_E.pdf",
+     "sha256": "10f553e36bd4a6278e6fc182e8ceef62d18545abfe12b65ed2b55bca7f6362d7"
+    }
+   ]
   }
  ]
 }

@@ -22,6 +22,15 @@
     "northern-province-business-names-statute-no-01-of-2018"
    ],
    "sha256": "6238088ee26b08a914569405a6769e028c052cbef00ef7221bdfce4b4b8567ba"
+  },
+  "30-q167-breadth.json": {
+   "acts": [
+    "finance-amendment-statute-of-northern-province-no-04-of-2017",
+    "northern-province-child-day-care-centre-statute-no-03-of-2016",
+    "northern-province-child-development-centre-statute-no-04-of-2016",
+    "northern-province-health-services-amendment-statute-no-10-of-2016"
+   ],
+   "sha256": "2e247c952f9febbe95f5c80d1ca62ed7871c4fa65952ca0474f7dd7d752be8a4"
   }
  },
  "schema": 1

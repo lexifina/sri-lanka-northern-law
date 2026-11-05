@@ -9,6 +9,7 @@ This file is written by the build on 2026-11-05, the day the source data was ret
 | Northern Provincial Council: statutes page, English text of each statute as published in the Gazette Extraordinary (PDF with a text layer) | <https://np.gov.lk/statutes/> | 2026-10-31 | Statutes of the Northern Provincial Council as published in the Gazette of the Democratic Socialist Republic of Sri Lanka (Extraordinary), Part IV (A), and posted on https://np.gov.lk. Intellectual Property Act, No. 36 of 2003 (Sri Lanka), section 8: copyright protection does not extend to any official text of a legislative, administrative or legal nature, or to any official translation of such a text. |
 | Northern Provincial Council: statutes page, English text of each statute as published in the Gazette Extraordinary (PDF with a text layer) | <https://np.gov.lk/statutes/> | 2026-10-31 | Statutes of the Northern Provincial Council as published in the Gazette of the Democratic Socialist Republic of Sri Lanka (Extraordinary), Part IV (A), and posted on https://np.gov.lk. Intellectual Property Act, No. 36 of 2003 (Sri Lanka), section 8: copyright protection does not extend to any official text of a legislative, administrative or legal nature, or to any official translation of such a text. |
 | Northern Provincial Council: statutes page, English text of each statute as published in the Gazette Extraordinary (PDF with a text layer) | <https://np.gov.lk/statutes/> | 2026-10-31 | Statutes of the Northern Provincial Council as published in the Gazette of the Democratic Socialist Republic of Sri Lanka (Extraordinary), Part IV (A), and posted on https://np.gov.lk. Intellectual Property Act, No. 36 of 2003 (Sri Lanka), section 8: copyright protection does not extend to any official text of a legislative, administrative or legal nature, or to any official translation of such a text. |
+| Northern Provincial Council: English Gazette statutes | <https://np.gov.lk/statutes/> | 2026-11-05 | Intellectual Property Act No. 36 of 2003, section 8: official legislative texts are excluded from copyright. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -24,12 +25,16 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `education-statute-no-02-of-2015` | Northern Province Education Statute No. 02 of 2015 | 1 | 2016-04-01 to 2016-04-01 |
 | `indigenous-medicine-statute-no-09-of-2016` | Northern Province Indigenous Medicine – No. 09 of 2016 | 1 | 2018-04-05 to 2018-04-05 |
 | `northern-province-business-names-statute-no-01-of-2018` | Northern Province Business Names Statute No.01 of 2018 | 1 | 2019-02-20 to 2019-02-20 |
+| `northern-province-child-day-care-centre-statute-no-03-of-2016` | Northern Province Child Day Care Centre Statute No. 03 of 2016 | 1 | 2016-10-28 to 2016-10-28 |
+| `northern-province-child-development-centre-statute-no-04-of-2016` | Northern Province Child Development Centre Statute No. 04 of 2016 | 1 | 2016-11-21 to 2016-11-21 |
+| `northern-province-health-services-amendment-statute-no-10-of-2016` | Northern Province Health Services (Amendment) Statute No. 10 of 2016 | 1 | 2017-07-11 to 2017-07-11 |
+| `finance-amendment-statute-of-northern-province-no-04-of-2017` | Finance (Amendment) Statute of Northern Province No. 04 of 2017 | 1 | 2017-10-13 to 2017-10-13 |
 
-The build made 8 commits:
+The build made 12 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 8 | first version of an act |
+| 12 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
@@ -37,7 +42,7 @@ Other counts:
 - 0 commits on the branch `future`: laws not yet in force on 2026-11-05.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 1 laws in the record.
-- 8 tags.
+- 12 tags.
 
 ## Dates
 
@@ -49,13 +54,13 @@ When a law gives no date of its own, the default rule applies: Each statute is d
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `39305ff8da7a37fe2c3fcde7ddb2025a0980d6b041febc35f2adfc8d92879f1d` (159272 bytes).
+- Corpus: sha256 `2ef33af95fe1dcc3e561a0458ae1b35b8f05a4480dbd0efbfcf8f100841c6dcf` (238545 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-8 versions of 8 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
@@ -68,6 +73,11 @@ No second build of this corpus has been compared yet.
 - A statute is left out when a second reading of its PDF (pdftotext) does not find every paragraph of the record whole, or finds text in the statute's stretch that the record lacks (tables, forms, layout the parser misreads).
 - 20-statutes-02: statutes an earlier parser could not read (marginal notes set beside short body lines, section numbers printed apart from their text, several statutes in one Gazette issue). The second reader (pdftotext) checks each statute in its content-stream order and, where that order interleaves statutes or marginal notes on a shared page, in its physical reading order; every check is complete in the order that passes (each paragraph whole, nothing else in the statute's stretch but page furniture). The note on each version names the order used.
 - 20-statutes-03: statutes an earlier parser could not read (marginal notes set beside short body lines, section numbers printed apart from their text, several statutes in one Gazette issue). The second reader (pdftotext) checks each statute in its content-stream order and, where that order interleaves statutes or marginal notes on a shared page, in its physical reading order; every check is complete in the order that passes (each paragraph whole, nothing else in the statute's stretch but page furniture). The note on each version names the order used.
+- Each statute has one oldest available version (first_law null), labelled as published. Commencement follows section 1 and the Governor assent date explicitly recorded in the Council notice; Gazette publication dates are recorded separately.
+- Amending statutes remain separate acts. Their base statutes are not asserted to be current consolidated texts.
+- English text only. The Gazette masthead, running heads, printing furniture, publication notices and marginal notes in whole-text records are excluded; textual schedules within the statute remain.
+- One file per section where the source structure can be distinguished; otherwise one whole-text file.
+- The Health Services amendment retains the source discrepancy: its section 1 calls it Finance (Amendment), while the heading and operative section identify Health Services.
 
 ## What AI did and did not do
 
@@ -79,3 +89,4 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the Gazette PDFs on the Council's website.
+- GPT-6 wrote extraction and validation code and reviewed metadata and layout. No model-written or model-corrected words enter legal text; text is extracted from the official PDF text layer, without OCR.
