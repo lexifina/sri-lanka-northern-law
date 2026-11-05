@@ -12,7 +12,7 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 | --- | --- |
 | one folder per statute (by the short title it gives itself) | one file per section (`000-title.md` for the heading, long title and enacting words), or one file `000-text.md` with the whole statute where its sections cannot be told apart reliably |
 
-Statutes are enacted in Sinhala and Tamil as well; this repository holds the English text only. Where a statute says which language prevails, it says so in its own words here. A statute is left out until it can be read reliably (see "How it is checked"); this record holds only part of the Northern Provincial Council's statutes.
+Statutes are enacted in Sinhala and Tamil as well; this repository holds the English text only. Where a statute says which language prevails, it says so in its own words here. A statute is left out until it can be read reliably (see "Limits"); this record holds only part of the Northern Provincial Council's statutes.
 
 ## Source
 
@@ -20,7 +20,7 @@ Statutes are enacted in Sinhala and Tamil as well; this repository holds the Eng
 
 ## Dates
 
-Each statute is dated by the day of the Gazette Extraordinary that published it, at noon in Colombo. A statute's own section 1 says when it comes into operation (usually on the Governor's assent); that day is not derived here.
+The four statutes added in the November 2026 batch are dated by the Governor assent explicitly recorded in the Council publication notice, following section 1. Gazette publication dates are recorded separately. Earlier records retain their original Gazette-date convention and await a commencement-date audit.
 
 ## How it is built
 
@@ -30,7 +30,7 @@ The text layer of each PDF (no OCR) becomes the record. Left out: the Gazette ma
 
 ## How it is checked
 
-Every version is read back from git on the day it took effect and must match the corpus. A second, independent reading of every PDF (a different PDF engine, pdftotext) must contain every paragraph of each statute whole, letter for letter and digit for digit, with nothing in the statute's stretch of the Gazette left out. Results are in `REPRODUCE.md`.
+Every version is read back from git on the day it took effect and must match the corpus. A second, independent reading of every PDF (pdftotext for the earlier records; pypdf for the November 2026 additions) must contain every paragraph of each statute whole, letter for letter and digit for digit, with nothing in the statute's stretch of the Gazette left out. Results are in `REPRODUCE.md`.
 
 ## What "author" means
 
@@ -38,8 +38,19 @@ The author of each commit is the publisher, with an e-mail address that cannot e
 
 ## Limits
 
-Only the statutes as published are here: no later amendments, no consolidation, only the English text, and only the statutes the Council posts with a text layer that pass the check. The Gazette is authoritative.
+Only the English statutes as published are here. Amending statutes have their own records; their changes are not applied to their principal statutes. This record has no consolidated current texts and includes only statutes that pass the text checks. The Gazette is authoritative.
 
 ## Licence
 
 See [LICENSE](LICENSE): official texts of a legislative nature are not protected by copyright under the Intellectual Property Act, No. 36 of 2003, section 8. Source: Northern Provincial Council; Gazette of the Democratic Socialist Republic of Sri Lanka (Department of Government Printing).
+
+## November 2026 additions
+
+| Statute | In force | Gazette published |
+| --- | --- | --- |
+| Northern Province Child Day Care Centre Statute No. 03 of 2016 | 2016-10-28 | 2016-11-02 |
+| Northern Province Child Development Centre Statute No. 04 of 2016 | 2016-11-21 | 2016-11-25 |
+| Northern Province Health Services (Amendment) Statute No. 10 of 2016 | 2017-07-11 | 2017-07-14 |
+| Finance (Amendment) Statute of Northern Province No. 04 of 2017 | 2017-10-13 | 2017-10-24 |
+
+These additions include the Child Day Care Centre and Child Development Centre statutes and separate Health Services and Finance amending statutes. The amendments are not applied to their principal statutes in this record.

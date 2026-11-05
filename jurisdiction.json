@@ -4,5 +4,5 @@
   "name": "Northern Province (Sri Lanka)",
   "level": "country",
   "repo": "https://github.com/lexifina/sri-lanka-northern-law",
-  "build": "built: statutes of the Northern Provincial Council as published in the Gazette Extraordinary, English text, posted on the Council's website"
+  "build": "partial: English statutes as published; twelve statutes, including four additions with source-confirmed assent dates; no consolidated current-text coverage"
 }
