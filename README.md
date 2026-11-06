@@ -1,5 +1,7 @@
 # Northern Province (Sri Lanka): law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Northern, Sri Lanka, which global-law reads at `sri-lanka/northern/acts/`.
+
 The statutes of the Northern Provincial Council, Sri Lanka, as a git history: one folder per statute, one paragraph per line, so `git blame`, `git log` and `git diff` work line by line. The text is the English text of each statute as published in the Gazette of the Democratic Socialist Republic of Sri Lanka (Extraordinary), Part IV (A), Provincial Councils, and posted by the Northern Provincial Council on its website.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
